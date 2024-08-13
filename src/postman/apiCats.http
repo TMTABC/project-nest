@@ -1,0 +1,15 @@
+@url_dev=http://localhost:3000
+
+//POST {{url_dev}}/cats
+# Content-Type:application/json
+# {
+#     "name":"Tri",
+#     "age":20,
+#     "breed":"black"
+# }
+
+//GET {{url_dev}}/cats/docs?version=5
+
+//GET {{url_dev}}/cats/io
+
+GET {{url_dev}}/cats
